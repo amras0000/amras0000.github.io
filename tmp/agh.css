@@ -1,0 +1,8 @@
+kml {
+    background: red;
+}
+ 
+Placemark {
+    display:block;
+    color: white;
+}
