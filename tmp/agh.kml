@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<?xml-stylesheet type="text/css" href="agh.css" ?>
+<Document>
+  <name>AGH</name>
+  <description><![CDATA[Spacer na AGH.]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/volcano.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/hospitals.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/camera.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Budynek główny</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>19.923738,50.064480,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Biblioteka</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>19.921368,50.065388,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coś do picia...</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>19.918337,50.064823,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>1-sza pomoc</name>
+    <description><![CDATA[<div dir="ltr">Szczególnie na ból głowy, ale nie tylko.</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>19.916952,50.065632,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>W cieniu lokomotywy</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>19.917553,50.067352,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Trasa spaceru</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        19.923737,50.064461,0.000000
+        19.923897,50.065041,0.000000
+        19.921375,50.065376,0.000000
+        19.919712,50.065624,0.000000
+        19.919188,50.064648,0.000000
+        19.918329,50.064823,0.000000
+        19.916763,50.065212,0.000000
+        19.916967,50.065639,0.000000
+        19.917566,50.067341,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>
